@@ -23,12 +23,14 @@ class App extends Component{
       <div className='app'>
         <div className='nav'>
           <ChannelSection
-            {...this.state}
+            channels={this.state.channels}
             addChannel={this.addChannel.bind(this)}
             setChannel={this.setChannel.bind(this)}
           />
         </div>
       </div>
+
+
     )
   }
 }
