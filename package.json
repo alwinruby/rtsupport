@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alwin Solanky",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.8.38",
+    "babel-loader": "^5.3.3",
+    "webpack": "^2.2.1"
+  }
 }
